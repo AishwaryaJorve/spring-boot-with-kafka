@@ -6,8 +6,6 @@ public class User {
     private String department;
     private String salary;
 
-
-
     public User(String name, String department, String salary) {
         this.name = name;
         this.department = department;
@@ -37,6 +35,5 @@ public class User {
     public void setSalary(String salary) {
         this.salary = salary;
     }
-
 
 }

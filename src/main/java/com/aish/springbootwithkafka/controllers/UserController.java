@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     KafkaTemplate<String, User> kafkaTemplate;
 
-    private static final String TOPIC="kafka-example";
+    private static final String TOPIC="json-example";
 
 //    @GetMapping("/publish/{message}")
 //    public String postMessage(@PathVariable("message") final String message){
